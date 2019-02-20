@@ -10,6 +10,7 @@ You can also specify the path to a single file directly:
         \_ Results: 43/46 DETECTED
            SHA256: 44491d810062e6ad517914f442d44368550c87a3ccafe593185d06b571253037
            Scan Date: 2013-05-13 05:20:45
+           Magic Type: application/x-dosexec
            Signatures:
             Win32.Worm.Downadup.Gen
             Worm/W32.Kido.157798
@@ -31,6 +32,7 @@ You can also specify the path to a single file directly:
         \_ Results: 45/47 DETECTED
            SHA256: 0f4a6e4132d55949b1b7257411fde6ba1caae6c155d564589e01832c0d7f99a3
            Scan Date: 2013-05-30 04:56:13
+           Magic Type: application/x-dosexec
            Signatures:
             Worm/W32.Kido.165141
             Win32.Worm.Conficker.B.3
@@ -56,6 +58,7 @@ You can also specify the path to a single file directly:
         \_ Results: 45/47 DETECTED
            SHA256: cfc5bef5b3a8bd21d5b9748832db14f6966154867c946564e003e0febf2b6c92
            Scan Date: 2013-05-30 05:11:03
+           Magic Type: application/x-dosexec
            Signatures:
             Worm.Generic.393285
             Worm/W32.Kido.165025

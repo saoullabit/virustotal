@@ -9,6 +9,8 @@ import argparse
 import time
 import magic
 
+from halo import Halo
+
 VIRUSTOTAL_FILE_URL = 'https://www.virustotal.com/vtapi/v2/file/report'
 API_KEY = ''
 
@@ -150,7 +152,10 @@ class Scanner(object):
                             entry['scan_date'],
                             magic
                             ))
+            spinner = Halo(text='Request to VirusTotal in progress', spinner='dots')
+            spinner.start()
             time.sleep(16)
+            spinner.stop()
 
                         if entry['positives'] > 0:
                             print(TPL_SIGNATURES.format('\n\t\t'.join(signatures)))

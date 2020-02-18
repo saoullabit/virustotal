@@ -166,7 +166,7 @@ class Scanner(object):
             time.sleep(16)
             spinner.stop()
 
-                        if entry['positives'] > 0:
+            if entry['positives'] > 0:
                             print(TPL_SIGNATURES.format('\n\t\t'.join(signatures)))
 
     def run(self):
